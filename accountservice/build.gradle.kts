@@ -45,7 +45,7 @@ dependencies {
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     runtimeOnly("com.h2database:h2")
     runtimeOnly("org.postgresql:postgresql")
-
+	runtimeOnly("com.mysql:mysql-connector-j")	
     // 6. Corrected Test Starters
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
