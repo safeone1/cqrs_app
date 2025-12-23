@@ -10,5 +10,6 @@ public class AddAccountCommand {
     @TargetAggregateIdentifier
     private String id;
     private double initialBalance;
+    private double amount;
     private String currency;
 }
